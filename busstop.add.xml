@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/12/21 10:33:36 by Eclipse SUMO netedit Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\Lynda\Desktop\testt\kku_maps.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Lynda\Desktop\testt\kku_maps.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Users\Lynda\Desktop\testt\busstop.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="busStop_0" lane="gneE12_0" startPos="46.86" endPos="56.86" lines="YELLOE_0"/>
+    <busStop id="busStop_1" lane="-69709912#1_0" startPos="32.83" endPos="42.83" lines="DORM_8"/>
+    <busStop id="busStop_10" lane="685771806#7_0" startPos="38.76" endPos="48.76" lines="FITNESS"/>
+    <busStop id="busStop_11" lane="69366770#1_0" startPos="24.34" endPos="34.34" lines="SPORT_COMPLEX"/>
+    <busStop id="busStop_12" lane="--69366770#4_0" startPos="36.53" endPos="46.53" lines="DORM_INTER_B"/>
+    <busStop id="busStop_13" lane="69709912#1_0" startPos="37.19" endPos="47.19" lines="DORM_I8_B"/>
+    <busStop id="busStop_14" lane="-69366722#3_0" startPos="53.51" endPos="63.51" lines="KASAT_F"/>
+    <busStop id="busStop_15" lane="23842259#4_0" startPos="0.00" endPos="15.00" lines="TE_F"/>
+    <busStop id="busStop_16" lane="-23841573#5_0" startPos="44.44" endPos="54.44" lines="EN_F"/>
+    <busStop id="busStop_17" lane="-34369589#4_0" startPos="54.18" endPos="64.18" lines="NU_F"/>
+    <busStop id="busStop_18" lane="67136067#0_0" startPos="11.86" endPos="21.86" lines="CAFETIRIA_N"/>
+    <busStop id="busStop_19" lane="462457331#3_0" startPos="16.51" endPos="26.51" lines="GAGE_H"/>
+    <busStop id="busStop_2" lane="-69366770#4_0" startPos="44.19" endPos="54.19" lines="DORM_INTER"/>
+    <busStop id="busStop_20" lane="69709925#1_0" startPos="0.00" endPos="30.77" name="AMS_F"/>
+    <busStop id="busStop_21" lane="69709925#4_0" startPos="18.34" endPos="28.34" name="PH_F" lines="PH_F"/>
+    <busStop id="busStop_22" lane="69709925#8_0" startPos="54.23" endPos="64.23" name="AF_F" lines="AF_F"/>
+    <busStop id="busStop_23" lane="69366726#0_0" startPos="138.73" endPos="148.73" name="7_11"/>
+    <busStop id="busStop_24" lane="69709907#6_0" startPos="11.71" endPos="21.71" lines="BUILDING"/>
+    <busStop id="busStop_25" lane="69366738#0_0" startPos="58.32" endPos="68.32" lines="GYM"/>
+    <busStop id="busStop_26" lane="-33276341#1_0" startPos="74.44" endPos="84.44" lines="ECON_F"/>
+    <busStop id="busStop_27" lane="-33298495#8_0" startPos="61.79" endPos="71.79" lines="COLA_F"/>
+    <busStop id="busStop_28" lane="-33298495#1_0" startPos="54.51" endPos="64.51" lines="HOSPITAL"/>
+    <busStop id="busStop_29" lane="-gneE16_0" startPos="230.45" endPos="240.45" lines="DEN_F"/>
+    <busStop id="busStop_3" lane="-69366770#1_0" startPos="24.79" endPos="34.79" lines="PTT"/>
+    <busStop id="busStop_30" lane="-33195382#15_0" startPos="25.60" endPos="35.60" lines="DORM_DOC"/>
+    <busStop id="busStop_31" lane="34369589#4_0" startPos="83.50" endPos="93.50" lines="NU_CAFE"/>
+    <busStop id="busStop_32" lane="23841573#5_0" startPos="119.42" endPos="129.42" lines="DORM_DEN"/>
+    <busStop id="busStop_33" lane="-69709907#4_0" startPos="24.00" endPos="34.00" lines="roundabout_buiding"/>
+    <busStop id="busStop_34" lane="-69709907#3_0" startPos="39.21" endPos="49.21" lines="Kaset_Park"/>
+    <busStop id="busStop_35" lane="69709907#11_0" startPos="96.85" endPos="106.85" lines="Farm_Plot1"/>
+    <busStop id="busStop_36" lane="-69709907#11_0" startPos="133.53" endPos="143.53" lines="Farm_Plot2"/>
+    <busStop id="busStop_37" lane="685771807#0_0" startPos="23.26" endPos="33.26" lines="CafeDeLa"/>
+    <busStop id="busStop_38" lane="23841604#4_0" startPos="0.00" endPos="28.57" lines="SC_F"/>
+    <busStop id="busStop_39" lane="-69366726#0_0" startPos="18.41" endPos="28.41" lines="MaeKhong_Ins"/>
+    <busStop id="busStop_4" lane="69366777#2_0" startPos="88.23" endPos="98.23" lines="DORM_M8"/>
+    <busStop id="busStop_40" lane="69366772#5_0" startPos="9.57" endPos="19.57" lines="ED_F"/>
+    <busStop id="busStop_41" lane="-69366772#7_0" startPos="47.27" endPos="57.27" lines="HS_F"/>
+    <busStop id="busStop_42" lane="-69709925#4_0" startPos="35.89" endPos="45.89" lines="MD_F"/>
+    <busStop id="busStop_43" lane="-33195382#17_0" startPos="58.05" endPos="68.05" lines="AMS"/>
+    <busStop id="busStop_44" lane="-69709925#8_0" startPos="45.70" endPos="55.70" lines="AR_F"/>
+    <busStop id="busStop_45" lane="-33195382#5_0" startPos="77.26" endPos="87.26" lines="MD_Flat1"/>
+    <busStop id="busStop_46" lane="-33195382#4_0" startPos="33.40" endPos="43.40" lines="Nursing_DOME"/>
+    <busStop id="busStop_47" lane="33195382#2_0" startPos="28.42" endPos="38.42" lines="FA"/>
+    <busStop id="busStop_48" lane="33195382#5_0" startPos="126.69" endPos="136.69" lines="MD_Flat4"/>
+    <busStop id="busStop_49" lane="-69366738#0_0" startPos="29.25" endPos="39.25" lines="GYM1"/>
+    <busStop id="busStop_5" lane="115629724#1_0" startPos="11.88" endPos="21.88" lines="CAFETIRIA"/>
+    <busStop id="busStop_50" lane="-23841573#1_0" startPos="33.48" endPos="43.48" lines="EN_F"/>
+    <busStop id="busStop_51" lane="69366791_0" startPos="65.80" endPos="75.80" lines="Pradu_Flat1"/>
+    <busStop id="busStop_52" lane="-69366791_0" startPos="5.62" endPos="15.62" lines="Pradu_Flat2"/>
+    <busStop id="busStop_53" lane="69366767#12_0" startPos="63.82" endPos="73.82" lines="LAW"/>
+    <busStop id="busStop_54" lane="-69366767#12_0" startPos="19.39" endPos="29.39" lines="Sathit_ED"/>
+    <busStop id="busStop_55" lane="-69366767#8_0" startPos="63.59" endPos="73.59" lines="Kanchana_HALL1"/>
+    <busStop id="busStop_56" lane="69366767#8_0" startPos="18.24" endPos="28.24" lines="Kanchana_HALL2"/>
+    <busStop id="busStop_57" lane="101514299#2_0" startPos="15.10" endPos="25.10" lines="Sithan_GATE"/>
+    <busStop id="busStop_58" lane="33195337#1_0" startPos="13.90" endPos="23.90" lines="Museam1"/>
+    <busStop id="busStop_59" lane="-33195337#1_0" startPos="42.01" endPos="52.01" lines="Museam2"/>
+    <busStop id="busStop_6" lane="115629724#4_0" startPos="108.16" endPos="118.16" lines="COMPLAX"/>
+    <busStop id="busStop_60" lane="69366767#7_0" startPos="115.93" endPos="125.93" lines="Kanchana152"/>
+    <busStop id="busStop_61" lane="790516991#4_0" startPos="9.24" endPos="19.24" lines="TE_F"/>
+    <busStop id="busStop_62" lane="790516991#6_0" startPos="0.00" endPos="28.66" lines="AG_F"/>
+    <busStop id="busStop_63" lane="-69366722#0_0" startPos="30.68" endPos="40.68" lines="AG_F2"/>
+    <busStop id="busStop_64" lane="-790516997#2_0" startPos="21.88" endPos="31.88" lines="TE_F2"/>
+    <busStop id="busStop_65" lane="69709907#3_0" startPos="129.49" endPos="139.49" lines="Kaset_Park2"/>
+    <busStop id="busStop_7" lane="33298495#16_0" startPos="38.76" endPos="48.76" lines="VET"/>
+    <busStop id="busStop_8" lane="790521004#1_0" startPos="39.42" endPos="49.42" lines="GAGE_KKU"/>
+    <busStop id="busStop_9" lane="685771806#1_0" startPos="79.59" endPos="89.59" lines="LIBRARY"/>
+</additional>
