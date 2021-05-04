@@ -1,0 +1,14 @@
+แปลงไฟล์เเผนที่
+netconvert --osm-files map.osm -o map.net.xml
+
+สร้างไฟล์ od_file.odtrips.xml
+od2trips -c od2trips.config.xml -n kku_maps.net.xml.taz.xml -d OD_file.od -o od_file.odtrips.xml
+
+สร้างไฟล์ od_route_file.odtrips.rou.xml
+duarouter -c duarcfg_file.trips2routers.duarcfg -o od_route_file.odtrips.rou.xml --routing-algorithm astar
+duarouter -c duarcfg_file.trips2routers.duarcfg -o od_route_file.odtrips.rou.xml --routing-algorithm dijkstra
+
+สร้างไฟล์ TAZ_file.taz.xml
+<SUMO_HOME>/tools/generateBidiDistricts.py kku_maps.net.xml
+
+python generateBidiDistricts.py kku_maps.net.xml

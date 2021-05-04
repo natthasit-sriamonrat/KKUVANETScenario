@@ -1,0 +1,28 @@
+
+<configuration>
+
+<input>
+    <net-file value="kku_maps.net.xml" />
+    <route-files value="buslines.rou.xml,od_route_file.odtrips.rou.xml" />
+    <additional-files value="busstop.add.xml,vtypes.add.xml,kku.poly.xml" />
+
+</input>
+
+<output>
+   
+    <summary value="output_sum.xml"/>
+
+</output>
+    
+    <time>
+        <begin value="0"/>
+        <step-length value="1"/>
+    </time>
+<gui_only>
+        <gui-settings-file value="settings.gui.xml"/>
+</gui_only>
+  
+    
+
+
+</configuration>

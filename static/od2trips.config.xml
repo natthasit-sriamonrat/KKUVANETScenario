@@ -1,0 +1,11 @@
+<configuration>
+<input>
+<taz-files value="kku_maps.net.xml.taz.xml"/>
+<od-matrix-files value="OD_file.od"/>
+</input>
+<!--
+<output>
+<output-file value="od_file.odtrips.xml"/>
+</output>
+-->
+</configuration>
