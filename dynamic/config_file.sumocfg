@@ -1,0 +1,42 @@
+
+<configuration>
+
+<input>
+    <net-file value="kku_maps.net.xml" />
+    <route-files value="buslines.rou.xml,od_route_file.odtrips.rou.xml" />
+    <additional-files value="busstop.add.xml,vtypes.add.xml,kku.poly.xml" />
+
+</input>
+
+
+
+<output>
+   
+    <summary value="output_sum.xml"/>
+
+</output>
+    
+    <time>
+        <begin value="0"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <ignore-junction-blocker value="20"/>
+        <time-to-teleport value="600"/>
+        <max-depart-delay value="600"/>
+        <routing-algorithm value="dijkstra"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.probability value="1"/>
+        <device.rerouting.period value="500"/>
+        <device.rerouting.pre-period value="500"/>
+    </routing>
+
+<gui_only>
+        <gui-settings-file value="settings.gui.xml"/>
+</gui_only>
+
+
+</configuration>

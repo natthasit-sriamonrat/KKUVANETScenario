@@ -1,0 +1,8 @@
+<configuration>
+
+<input>
+<net-file value="kku_maps.net.xml"/>
+<route-files value="od_file.odtrips.xml"/>
+</input>
+
+</configuration>
